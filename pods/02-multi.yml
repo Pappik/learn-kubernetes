@@ -6,6 +6,6 @@ spec:
   containers:
     - name: nginx
       image: nginx
-    - name: httpd
-      image: httpd
+    - name: tomcat
+      image: tomcat
 
