@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: 03-service
+  labels:
+    name: 03-service
+spec:
+  containers:
+    - name: nginx
+      image: nginx
+      env:
+        - name: URL
+          value: example.com
+
