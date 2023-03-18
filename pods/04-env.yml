@@ -14,7 +14,7 @@ spec:
 apiVersion: v1
 kind: Pod
 metadata:
-  name: 04-env
+  name: 04-env1
 spec:
   containers:
     - name: nginx
