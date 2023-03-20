@@ -1,5 +1,5 @@
 [mongo]
 name =
 url =
-enabled = 0
+enabled = 1
 gpg =
