@@ -1,5 +1,5 @@
 #INSTRUCTION arguments
-FROM      centos
-RUN       yum install epel-release -y 
+FROM      dokken/centos-8
+RUN       yum install epel-release -y
 RUN       yum install nginx -y
 
